@@ -1,0 +1,1 @@
+insert into stock(id,product_id,number_available) values (1,1,10),(2,2,20),(3,3,5)
