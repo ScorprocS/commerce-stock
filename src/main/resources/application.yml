@@ -5,7 +5,9 @@ server:
 spring:
   application:
     name: STOCK-SERVICE
-
+  threads:
+    virtual:
+     enabled: true
 eureka:
   client:
     register-with-eureka: true
